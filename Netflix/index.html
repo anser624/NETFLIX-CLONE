@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main container-fluid">
+      <div class="bg-blac">
+        <div class="container navbar-top">
+          <div class="row w-100">
+            <div class="col d-flex align-items-center">
+              <div class="logo">
+                <svg
+                  viewBox="0 0 111 30"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  aria-hidden="true"
+                  role="img"
+                  class="default-ltr-cache-1d568uk ev1dnif2"
+                >
+                  <g>
+                    <path
+                      d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-end">
+              <div class="button">
+                <button class="cont10-bt">Sign In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container d-flex align-items-center justify-content-center cont11"
+        >
+          <div
+            class="row main-content d-flex align-items-center justify-content-center"
+          >
+            <div class="col text-center d-flex flex-column row-gap-3">
+              <div class="content">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <h2>Watch anywhere. Cancel anytime.</h2>
+              </div>
+              <div class="mail d-flex align-items-center flex-column">
+                <h2>
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </h2>
+                <div
+                  class="d-flex w-100 justify-content-center column-gap-2 q1"
+                >
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Email address"
+                  />
+                  <button class="cont11-bt">Get Started</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gray"></div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black scndbox brdr2">
+      <div class="row brdr ">
+        <div class="col brdr h-100">
+          <div class="fw-bolder text-white p-4">
+            <h1 class="fntsize">Enjoy on your TV</h1>
+            <h2 class="fntsize2">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </h2>
+          </div>
+        </div>
+        <div class="col brdr h-100">
+          <img
+            class="position-absolute"
+            src="img/tv.png"
+            alt=""
+            height="350px"
+            width="450px"
+          />
+          <video
+            class="h-75 w-100"
+            src="img/video-tv-0819.m4v"
+            autoplay
+            loop
+          ></video>
+        </div>
+      </div>
+    </div> 
+    <div class="container-fluid bg-black scndbox brdr2 p-5">
+      <div class="row brdr">
+        <div class="col brdr h-100 p-5">
+          <img
+            class="position-absolute"
+            src="img/mobile-0819.jpg"
+            alt=""
+            height="450px"
+            width="550px"
+          />
+        </div>
+        <div class="col brdr">
+          <div class="fw-bolder text-white p-4">
+            <h1 class="fntsize3">Download your shows to watch offline</h1>
+            <h2 class="fntsize23">
+              Save your favorites easily and always have something to watch.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black brdr2 scndbox">
+      <div class="row d-flex brdrex container-fluid w-75 m-5">
+        <h1 class="fntsize mrgn">Watch<br/>everywhere</h1>
+        <h2 class="fntsize2 mrgn">Stream unlimited movies and TV</h2>
+        <h2 class="fntsize2 mrgn">shows on your phone, tablet, laptop,</h2>
+        <h2 class="fntsize2 mrgn">and tv.</h2>
+      </div>
+    </div>
+    <div class="container-fluid bg-black brdr2 scndbox">
+      <div class="row brdr">
+        <div class="col brdr h-100">
+          <img
+            class="position-absolute"
+            src="img/crton.png"
+            alt=""
+            height="450px"
+            width="550px"
+          />
+        </div>
+        <div class="col brdr">
+          <div class="fw-bolder text-white p-4">
+            <h1 class="fntsize3">Create profiles for kids</h1>
+            <h2 class="fntsize23">
+              Send kids on adventures with their favorite characters in a space
+              made just for them—free with your membership.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black scndbox2 brdr2">
+      <div class="d-flex flex-column justify-content-center vh-100">
+        <div
+          class="textfrst text-center d-flex justify-content-center"
+          style="margin-top: 4rem; margin-bottom: 2rem"
+        >
+          Frequently Asked Questions
+        </div>
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="d-flex justify-content-between w-75 q12 m-1">
+            <span>what is netflix?</span>
+            <span class="spnlst">+</span>
+          </div>
+          <div class="d-flex justify-content-between w-75 q12 m-1">
+            <span>how much does netfllix cost?</span>
+            <span class="spnlst">+</span>
+          </div>
+          <div class="d-flex justify-content-between w-75 q12 m-1">
+            <span>where can i watch?</span>
+            <span class="spnlst">+</span>
+          </div>
+          <div class="d-flex justify-content-between w-75 q12 m-1">
+            <span>how do i cancel?</span>
+            <span class="spnlst">+</span>
+          </div>
+          <div class="d-flex justify-content-between w-75 q12 m-1">
+            <span>what can i watch on netflix?</span>
+            <span class="spnlst">+</span>
+          </div>
+          <div class="d-flex justify-content-between w-75 q12 m-1">
+            <span>is netflix good for kids?</span>
+            <span class="spnlst">+</span>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center m-5">
+        <div
+          class="row main-content d-flex align-items-center justify-content-center"
+        >
+          <div class="col text-center d-flex flex-column row-gap-3">
+            <div class="mail d-flex align-items-center flex-column">
+              <h4>
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </h4>
+              <div class="d-flex w-100 justify-content-center column-gap-2 q1">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Email address"
+                />
+                <button class="cont11-bt">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black brdr2 scndbox">
+      <div class="row col-10">
+        <div class="col-3">
+          <div class="row row-gap-3">
+            <a href="">Questions? Contact us.</a>
+            <a href="">FAQ</a>
+            <a href="">Investor Relations</a>
+            <a href="">Privacy</a>
+            <a href="">Speed Test</a>
+          </div>
+          <div class="f-btn">
+          <button class="footer-btn">
+          <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  role="img"
+                  data-icon="LanguagesSmall"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                    fill="currentColor"
+                  >
+                </path>
+                </svg>English</button>
+                <p class="fff">Netflix Pakistan</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row row-gap-3">
+            <a href="">Help center</a>
+            <a href="">jobs</a>
+            <a href="">Cookie Preferences</a>
+            <a href="">Legal Notices</a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row row-gap-3">
+            <a href="">account</a>
+            <a href="">ways to watch</a>
+            <a href="">Corporate Information</a>
+            <a href="">Only on Netflix</a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row row-gap-3">
+            <a href="">Media Center</a>
+            <a href="">Terms of Use</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
